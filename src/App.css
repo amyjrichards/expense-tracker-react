@@ -11,7 +11,7 @@
 body {
   background-color: #f7f7f7;
   display: flex;
-  flex-direction: column;
+  flex-direction: columns;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
@@ -148,10 +148,4 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
-}
-
-@media (max-width: 320px) {
-  .container {
-    width: 300px;
-  }
 }
